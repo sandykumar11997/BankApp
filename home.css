@@ -1,0 +1,36 @@
+*
+body
+{
+	margin: 0;
+	padding: 0;
+	background:url(HB.jpg);
+	background-size:cover;
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	background: none;
+	text-align : center;
+
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+}
+.menu-bar ul li
+{
+	width:120px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a
+{
+	text-decoration:none;
+    color: #ffff;
+}
+.active, .menu-bar ul li:hover
+{
+	background:#2bab0d;
+	border-radius: 5px;
+}
